@@ -1,0 +1,11 @@
+=== Cafeteria Dev - Checkpoint 2 ===
+Disciplina: C# Development
+Turma: 3ESPS
+Professor: Wellington Cidade Silva
+
+Integrantes:
+- RM: _____ - Nome: _____________________ (Tech Lead)
+- RM: _____ - Nome: _____________________ (GitHub: @igorNociti)
+- RM: _____ - Nome: _____________________ (GitHub: @henriquemacielr)
+
+Repositório: https://github.com/Fiapoo/Cafeteria
