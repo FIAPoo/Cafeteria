@@ -8,6 +8,7 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblCarregando;
         private System.Windows.Forms.ProgressBar barraProgresso;
+        private System.Windows.Forms.Timer timerCarregamento;
 
         protected override void Dispose(bool disposing)
         {
@@ -23,7 +24,9 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblCarregando = new System.Windows.Forms.Label();
             this.barraProgresso = new System.Windows.Forms.ProgressBar();
+            this.timerCarregamento = new System.Windows.Forms.Timer();
             this.SuspendLayout();
+
 
             // titulo grandao no meio
             this.lblTitulo.AutoSize = false;
@@ -48,6 +51,10 @@
             this.barraProgresso.Size = new System.Drawing.Size(300, 20);
             this.barraProgresso.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.barraProgresso.MarqueeAnimationSpeed = 30;
+
+            // timer que fecha a splash depois de 3 segundos
+            this.timerCarregamento.Interval = 3000;
+            this.timerCarregamento.Tick += new System.EventHandler(this.timerCarregamento_Tick);
 
             // form em si
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
