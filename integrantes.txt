@@ -5,7 +5,7 @@ Professor: Wellington Cidade Silva
 
 Integrantes:
 - RM: 560527 - Nome: João Pedro Vieira de Morais(Tech Lead)
-- RM: 560225 - Nome: Igor Pereira Nociti (GitHub: @igorNociti)
+- RM: 560225 - Nome: Igor Pereira Nociti (GitHub:@igorNociti)
 - RM: 559628- Nome: Henrique Maciel Rodrigues (GitHub: @henriquemacielr)
 
 Repositório: https://github.com/Fiapoo/Cafeteria
