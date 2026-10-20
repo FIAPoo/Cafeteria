@@ -21,7 +21,7 @@ Toda feature branch abre **Pull Request contra `dev`**. Mínimo de **3 commits s
 
 | Papel | Integrante | Responsabilidade |
 |-------|-----------|-------------------|
-| Tech Lead | — | Setup do repo, Tela Splash + Tela Menu, Code Review, `integrantes.txt` |
+| Tech Lead | @JoaoVieiraM | Setup do repo, Tela Splash + Tela Menu, Code Review, `integrantes.txt` |
 | Dev 1 | @igorNociti | Tela de Venda do Café (`feature/tela-vendas`) |
 | Dev 2 | @henriquemacielr | Tela de Relatório de Vendas (`feature/tela-relatorios`) |
 
